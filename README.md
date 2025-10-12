@@ -1,5 +1,5 @@
 <h1 style="text-align: left; display: flex;">
-  <img src="https://raw.githubusercontent.com/Melikash98/Safe-Pulse/main/logoApp.png" alt="Logo" width="80px"   height="80px" style="margin-right: 10px;padding-top: 6rem;" />
+  <img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/logoApp.png" alt="Logo" width="80px"   height="80px" style="margin-right: 10px;padding-top: 6rem;" />
 Haus-Suche
 </h1>
 
