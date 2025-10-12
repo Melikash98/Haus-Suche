@@ -3,7 +3,7 @@
 Haus-Suche
 </h1>
 
-
+<img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/App.png" alt="Logo" width="80px"   height="80px" style="margin-right: 10px;padding-top: 6rem;" />
 ##
 <p align="left" width="100%">
   <strong>Discover and book beautiful villas and holiday homes for your next getaway.</strong>
