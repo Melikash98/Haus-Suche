@@ -1,1 +1,22 @@
-Sample text
+texts:
+
+====> splash:
+      ===>House Suche
+
+====> intro:
+      ===> slide one:
+title:  
+Die besten Unterkünfte für jede Reise finden – leichter als gedacht!
+des:
+Reisen kann aufregend, aber auch herausfordernd sein. Ob günstige Mietwohnungen, charmante Pensionen oder Hotels – wir helfen Reisenden, die perfekte Unterkunft für jede Reise zu finden.
+      ===> slide Two:
+title:  
+Mit unserer App: Einfach & schnell buchen!
+des:
+Reiseplanung kann herausfordernd sein: Von günstigen Mietwohnungen bis zu Hotels kämpfen viele Reisende mit der Auswahl der besten Optionen.
+   ===> slide Three:
+title:  
+Finde jetzt dein Traumziel – einfacher, schneller, perfekter!
+des:
+Melde dich in nur wenigen Minuten an und entdecke erweiterte Suchtools, personalisierte Empfehlungen und exklusive Reisetipps. Mach jede Reise unvergesslich mit den perfekten Aufenthalten.
+
