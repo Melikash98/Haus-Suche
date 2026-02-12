@@ -20,4 +20,12 @@ Finde jetzt dein Traumziel – einfacher, schneller, perfekter!
 des:
 Melde dich in nur wenigen Minuten an und entdecke erweiterte Suchtools, personalisierte Empfehlungen und exklusive Reisetipps. Mach jede Reise unvergesslich mit den perfekten Aufenthalten.
 ====> Explore Page :
-      ===>
+      ===> categories:
+location_address => Munchen , Deutschland
+searching => suchen..
+nearby_properties => Nahe gelegenen Immobilien
+Hose => Hause
+name_hose => königliche Wohnung
+location_items => Marienplatz 8, 80331 München, Deutschland
+username => Benutzername
+Don't Show Toolbar => Passwort vergessen?
