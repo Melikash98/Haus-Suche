@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+
+    <TextView
+        android:id="@+id/text_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/title_cat_ex"
+        android:text="Add Categories"
+        android:textColor="@color/black"
+        android:textFontWeight="800"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgCat"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_one" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/CatEditText"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/inputs"
+        android:hint="Add Categoreis"
+        android:paddingStart="10dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgCat" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addCatBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btns"
+        android:text="Add Catgory"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@id/CatEditText"
+        app:layout_constraintStart_toStartOf="@id/CatEditText"
+        app:layout_constraintTop_toBottomOf="@id/CatEditText" />
+
+    <TextView
+        android:id="@+id/text_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/title_cat_ex"
+        android:text="Add New Items"
+        android:textColor="@color/black"
+        android:textFontWeight="800"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addCatBtn" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_two">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="80dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="80dp">
+
+                <ImageView
+                    android:id="@+id/imgItems"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="40dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/house_2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgItems">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/nameEditText"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="-150dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/inputs"
+                        android:hint="Name House"
+                        android:paddingStart="10dp"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/catEditText"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/catEditText"
+                        android:layout_width="180dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/inputs"
+                        android:hint="Add Categoreis"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/nameEditText"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/boxx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/box">
+
+                    <TextView
+                        android:id="@+id/countryEditText"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="30dp"
+                        android:background="@drawable/inputs"
+                        android:paddingStart="10dp"
+                        android:text="@string/country"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toStartOf="@id/priceEditText"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/priceEditText"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/inputs"
+                        android:hint="price"
+                        android:paddingStart="10dp"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/countryEditText"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/overEditText"
+                    android:layout_width="290dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/inputs"
+                    android:hint="OverView"
+                    android:maxLines="5"
+                    android:paddingStart="10dp"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/boxx" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/optionBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="30dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/overEditText">
+
+                    <ImageView
+                        android:id="@+id/iconBar"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/arrow_right"
+                        app:layout_constraintBottom_toBottomOf="@id/iconBar"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/title_cat_ex"
+                        android:text="Options Haouse"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textFontWeight="800"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="@id/iconBar"
+                        app:layout_constraintStart_toEndOf="@id/iconBar"
+                        app:layout_constraintTop_toTopOf="@id/iconBar" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/oprtionLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/optionBtn">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/boxxx"
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:id="@+id/bathEditText"
+                            android:layout_width="90dp"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/inputs"
+                            android:hint="bath"
+                            android:inputType="number"
+                            android:maxLength="2"
+                            android:paddingStart="10dp"
+                            android:textSize="18sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_goneMarginStart="30dp" />
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:id="@+id/bedEditText"
+                            android:layout_width="90dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/inputs"
+                            android:hint="beds"
+                            android:inputType="number"
+                            android:maxLength="2"
+                            android:paddingStart="10dp"
+                            android:textSize="18sp"
+                            app:layout_constraintBottom_toBottomOf="@id/bathEditText"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/bathEditText" />
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:id="@+id/mtEditText"
+                            android:layout_width="90dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/inputs"
+                            android:hint="Meters"
+                            android:inputType="numberDecimal"
+                            android:maxLength="4"
+                            android:paddingStart="10dp"
+                            android:textSize="18sp"
+                            app:layout_constraintBottom_toBottomOf="@id/bathEditText"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/bedEditText"
+                            app:layout_constraintTop_toTopOf="@id/bathEditText" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/boxxxx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:visibility="gone"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/boxxx">
+
+                        <androidx.appcompat.widget.AppCompatCheckBox
+                            android:id="@+id/carCheck"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:hint="Car Garage"
+                            android:textColorHint="@color/black"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <androidx.appcompat.widget.AppCompatCheckBox
+                            android:id="@+id/msRoom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:hint="MasterRoom"
+                            android:textColorHint="@color/black"
+                            app:layout_constraintBottom_toBottomOf="@id/carCheck"
+                            app:layout_constraintStart_toEndOf="@id/carCheck"
+                            app:layout_constraintTop_toTopOf="@id/carCheck" />
+
+                        <androidx.appcompat.widget.AppCompatCheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:hint="Car Garage"
+                            android:textColorHint="@color/black"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/infoOwnerBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toStartOf="@id/optionBtn"
+                    app:layout_constraintTop_toBottomOf="@id/oprtionLayout">
+
+                    <ImageView
+                        android:id="@+id/iconBarOwner"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/arrow_right"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/title_cat_ex"
+                        android:text="Information Owner"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textFontWeight="800"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="@id/iconBarOwner"
+                        app:layout_constraintStart_toEndOf="@id/iconBarOwner"
+                        app:layout_constraintTop_toTopOf="@id/iconBarOwner" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:layout_constraintTop_toBottomOf="@id/infoOwnerBtn"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:id="@+id/ownerInfoLayout">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/ownerImgeProfile"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="40dp"
+                        android:src="@drawable/profile"
+                        android:layout_marginStart="30dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                       app:layout_constraintTop_toTopOf="parent" />
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/nameOwner_admin"
+                        android:layout_width="170dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/inputs"
+                        android:hint="Full Name Owner"
+                        android:paddingStart="10dp"
+                        android:layout_marginStart="20dp"
+                        android:textSize="18sp"
+                        android:inputType="textPersonName"
+                        app:layout_constraintStart_toEndOf="@id/ownerImgeProfile"
+                        app:layout_constraintTop_toTopOf="@id/ownerImgeProfile"/>
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/emailOwner_admin"
+                        android:layout_width="170dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/inputs"
+                        android:hint="Email Name Owner"
+                        android:paddingStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:inputType="textEmailAddress"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toStartOf="@id/nameOwner_admin"
+                       app:layout_constraintTop_toBottomOf="@id/nameOwner_admin"/>
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/phone_number_admin"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/inputs"
+                        android:hint="Phone Number Owner"
+                        android:layout_marginTop="10dp"
+                        android:paddingStart="10dp"
+                        android:inputType="phone"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ownerImgeProfile"
+                        android:layout_marginStart="20dp"/>
+                    <androidx.appcompat.widget.AppCompatCheckBox
+                        android:id="@+id/smsNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:hint="Use SMS Number"
+                        android:textColorHint="@color/black"
+                        app:layout_constraintTop_toTopOf="@id/phone_number_admin"
+                        app:layout_constraintBottom_toBottomOf="@id/phone_number_admin"
+                        app:layout_constraintStart_toEndOf="@id/phone_number_admin"/>
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/sms_number_admin"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/inputs"
+                        android:hint="SMS Number Owner"
+                        android:layout_marginTop="10dp"
+                        android:paddingStart="10dp"
+                        android:inputType="phone"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/phone_number_admin"
+                        android:layout_marginStart="20dp"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/addNewHBtn"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/btns"
+                    android:text="New Items"
+                    android:textAllCaps="false"
+                    app:layout_constraintEnd_toEndOf="@id/overEditText"
+                    app:layout_constraintStart_toStartOf="@id/overEditText"
+                    app:layout_constraintTop_toBottomOf="@id/ownerInfoLayout"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginBottom="30dp"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

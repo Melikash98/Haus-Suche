@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:paddingRight="30dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image_show"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/profile"
+                app:civ_border_color="#FF000000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name_owner_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/title_cat_ex"
+                android:text="@string/name_owner"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textFontWeight="700"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@id/profile_image_show"
+                app:layout_constraintTop_toTopOf="@id/profile_image_show" />
+
+            <TextView
+                android:id="@+id/email_owner_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/input_font"
+                android:text="@string/email"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textFontWeight="700"
+                android:textSize="12sp"
+
+                app:layout_constraintStart_toStartOf="@id/name_owner_show"
+                app:layout_constraintTop_toBottomOf="@id/name_owner_show" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:layout_constraintStart_toStartOf="@id/profile_image_show"
+                app:layout_constraintTop_toBottomOf="@id/profile_image_show">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/phoneBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/ivonCall"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/phone_call"
+                        android:backgroundTint="@color/light_green"
+                        android:rotation="20" />
+
+                    <TextView
+                        android:id="@+id/phone_owner_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="@font/input_font"
+                        android:text="@string/phone"
+                        android:textAlignment="center"
+                        android:textColor="@color/light_green"
+                        android:textFontWeight="700"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="@id/ivonCall"
+                        app:layout_constraintStart_toEndOf="@id/ivonCall"
+                        app:layout_constraintTop_toTopOf="@id/ivonCall" />
+
+                    <TextView
+                        android:id="@+id/phone_owner_show"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="@font/input_font"
+                        android:text="09157585144"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textFontWeight="700"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@id/phone_owner_text"
+                        app:layout_constraintStart_toEndOf="@id/phone_owner_text"
+                        app:layout_constraintTop_toTopOf="@id/phone_owner_text" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/phoneBox"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/iconSms"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/message"
+                        android:backgroundTint="@color/light_green"
+                        />
+
+                    <TextView
+                        android:id="@+id/sms_owner_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="@font/input_font"
+                        android:text="@string/sms"
+                        android:textAlignment="center"
+                        android:textColor="@color/light_green"
+                        android:textFontWeight="700"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="@id/iconSms"
+                        app:layout_constraintStart_toEndOf="@id/iconSms"
+                        app:layout_constraintTop_toTopOf="@id/iconSms" />
+
+                    <TextView
+                        android:id="@+id/sms_owner_show"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="@font/input_font"
+                        android:text="09157585144"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textFontWeight="700"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@id/sms_owner_text"
+                        app:layout_constraintStart_toEndOf="@id/sms_owner_text"
+                        app:layout_constraintTop_toTopOf="@id/sms_owner_text" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
