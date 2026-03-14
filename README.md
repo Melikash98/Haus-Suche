@@ -69,7 +69,10 @@ If you want to contribute, please open an issue describing the change, then send
 
 License <a name="license"></a>
 
-This project does not include a license file by default. For portfolio/demo use, consider adding a permissive license such as MIT. If you want, I can add a proper LICENSE file and the short license header to the top of main source files
+<p align="left" width="100%">
+  This project does not include a license file by default. For portfolio/demo use, consider adding a permissive license such as MIT. If you want, I can add a proper LICENSE file and the short license header to the top of main source files
+</p>
+
 ---
 
 ## Installation <a name="installation"></a>
