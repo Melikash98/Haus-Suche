@@ -16,8 +16,8 @@ Haus-Suche
   <a href="#features">Features</a><br>
    <a href="#tech-stack">Tech Stack</a><br>
   <a href="#contributing">Contributing</a><br>
+   <a href="#license">License</a>
   <a href="#installation">Installation</a><br>
-  <a href="#license">License</a>
 </p>
 
 
