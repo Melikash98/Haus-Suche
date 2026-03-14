@@ -26,7 +26,9 @@ Haus-Suche
 ## Overview
 
 **Safe Pulse**
+Haus-Suche is a lightweight Android application focused on property discovery and short-term bookings. The app demonstrates common mobile patterns—structured categories, multi-criteria filters, a three-feed Explore section (Top Picks / Nearby / Latest), and an integrated communication flow for contacting property owners. The implementation prioritizes real-time data sync and privacy-preserving communication while keeping the codebase simple and approachable for learning and iteration.
 
+This repository is a practical junior-level project intended for portfolio/demo use. Code is organized to show modular UI components, Firebase-backed data flows, and typical Android UI patterns (RecyclerView, Intent-based actions, modular data layer).
 
 ---
 
