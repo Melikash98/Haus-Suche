@@ -1,9 +1,9 @@
 <h1 style="text-align: left; display: flex;">
-  <img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/app" alt="Logo" width="80px"   height="80px" style="margin-right: 10px;padding-top: 6rem;" />
+  <img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/logoApp.png" alt="Logo" width="80px"   height="80px" style="margin-right: 10px;padding-top: 6rem;" />
 Haus-Suche
 </h1>
 
-<img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/App.png" alt="Logo" width="100%"   height="100%" style="margin-right: 10px;padding-top: 6rem;" />
+<img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/ezgif.com-animated-gif-maker.gif" alt="Logo" width="100%"   height="100%" style="margin-right: 10px;padding-top: 6rem;" />
 ##
 <p align="left" width="100%">
   <strong>Discover and book beautiful villas and holiday homes for your next getaway.</strong>
