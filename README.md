@@ -33,7 +33,15 @@ This repository is a practical junior-level project intended for portfolio/demo 
 ---
 
 ## Features <a name="features"></a>
-Smart discovery — categories + advanced filters (price, distance, amenities) to quickly narrow results.
+<ul>
+  <li>*Smart discovery — categories + advanced filters (price, distance, amenities) to quickly narrow results.</li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+
 
 Explore feeds — three dedicated RecyclerView feeds: Top Picks, Nearby, and Latest.
 
