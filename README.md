@@ -55,8 +55,8 @@ This repository is a practical junior-level project intended for portfolio/demo 
 </ul>
  (Keep service keys and credentials out of the repository — use google-services.json locally or environment variables for CI.)
 ---
+## Contributing <a name="contributing"></a>
 
-Contributing <a name="contributing"></a>
 Contributions are welcome — this repo is intentionally simple to make it easy to read and extend. Suggested contributions:
 <ul>
   <li>Fix UI bugs or improve layouts for multiple screen sizes.</li>
@@ -65,9 +65,10 @@ Contributions are welcome — this repo is intentionally simple to make it easy 
   <li>Implement additional Explore ranking signals or offline caching.</li>
 </ul>
 If you want to contribute, please open an issue describing the change, then send a small PR focused on one task. Keep changes minimal and well-documented.
+
 ---
 
-License <a name="license"></a>
+## License <a name="license"></a>
 
 <p align="left" width="100%">
   This project does not include a license file by default. For portfolio/demo use, consider adding a permissive license such as MIT. If you want, I can add a proper LICENSE file and the short license header to the top of main source files
