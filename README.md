@@ -33,7 +33,21 @@ This repository is a practical junior-level project intended for portfolio/demo 
 ---
 
 ## Features <a name="features"></a>
+Smart discovery — categories + advanced filters (price, distance, amenities) to quickly narrow results.
 
+Explore feeds — three dedicated RecyclerView feeds: Top Picks, Nearby, and Latest.
+
+Favorites & history — bookmark listings and keep a lightweight activity history for basic personalization.
+
+Secure in-app email relay — messages are routed through the platform so replies show inside the app without exposing raw contact details.
+
+Multiway authentication — email/password plus social sign-in options.
+
+Real-time updates — listings and metadata update instantly for a responsive UX.
+
+Document verification (optional) — host/guest verification flow to increase trust.
+
+In-app helpers & notifications — contextual tips and push notifications to guide users.
 ---
 
 ## Screenshots <a name="screenshots"></a>
