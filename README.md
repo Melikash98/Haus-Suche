@@ -14,9 +14,8 @@ Haus-Suche
 ---
 <p align="left">
   <a href="#features">Features</a><br>
+   <a href="#tech-stack">Tech Stack</a><br>
   <a href="#installation">Installation</a><br>
-  <a href="#screenshots">Screenshots</a><br>
-  <a href="#tech-stack">Tech Stack</a><br>
   <a href="#license">License</a>
 </p>
 
@@ -46,13 +45,18 @@ This repository is a practical junior-level project intended for portfolio/demo 
 
 ---
 
-## Screenshots <a name="screenshots"></a>
-<img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/ezgif.com-animated-gif-maker.gif" alt="Logo" width="100%"   height="100%" style="margin-right: 10px;padding-top: 6rem;" />
+## Tech Stack <a name="tech-stack"></a>
+<ul>
+  <li>Android (Java/Kotlin) — project UI & app logic.</li>
+  <li>Realtime backend: Firebase.</li>
+  <li>Source & hosting: GitHub.</li>
+  <li>Social auth options: Google and Facebook.</li>
+</ul>
+<p align="left" width="100%">
+ (Keep service keys and credentials out of the repository — use google-services.json locally or environment variables for CI.)
+</p>
 ---
-
 ## Installation <a name="installation"></a>
 
 ### Option 1: Clone & Run
-```bash
-
-## Tech Stack <a name="tech-stack"></a>
+```bash---
