@@ -15,6 +15,7 @@ Haus-Suche
 <p align="left">
   <a href="#features">Features</a><br>
    <a href="#tech-stack">Tech Stack</a><br>
+  <a href="#contributing">Contributing</a><br>
   <a href="#installation">Installation</a><br>
   <a href="#license">License</a>
 </p>
@@ -52,10 +53,24 @@ This repository is a practical junior-level project intended for portfolio/demo 
   <li>Source & hosting: GitHub.</li>
   <li>Social auth options: Google and Facebook.</li>
 </ul>
-<p align="left" width="100%">
  (Keep service keys and credentials out of the repository — use google-services.json locally or environment variables for CI.)
-</p>
 ---
+
+Contributing <a name="contributing"></a>
+Contributions are welcome — this repo is intentionally simple to make it easy to read and extend. Suggested contributions:
+<ul>
+  <li>Fix UI bugs or improve layouts for multiple screen sizes.</li>
+  <li>Add unit and instrumentation tests for critical flows.</li>
+  <li>Improve documentation (setup steps, architecture diagram).</li>
+  <li>Implement additional Explore ranking signals or offline caching.</li>
+</ul>
+If you want to contribute, please open an issue describing the change, then send a small PR focused on one task. Keep changes minimal and well-documented.
+---
+
+License <a name="license"></a>
+This project does not include a license file by default. For portfolio/demo use, consider adding a permissive license such as MIT. If you want, I can add a proper LICENSE file and the short license header to the top of main source files
+---
+
 ## Installation <a name="installation"></a>
 
 ### Option 1: Clone & Run
