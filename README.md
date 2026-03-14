@@ -34,35 +34,25 @@ This repository is a practical junior-level project intended for portfolio/demo 
 
 ## Features <a name="features"></a>
 <ul>
-  <li>*Smart discovery — categories + advanced filters (price, distance, amenities) to quickly narrow results.</li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Smart discovery — categories + advanced filters (price, distance, amenities) to quickly narrow results.</li>
+  <li>Explore feeds — three dedicated RecyclerView feeds: Top Picks, Nearby, and Latest.</li>
+  <li>Favorites & history — bookmark listings and keep a lightweight activity history for basic personalization.</li>
+  <li>Secure in-app email relay — messages are routed through the platform so replies show inside the app without exposing raw contact details.</li>
+  <li>Multiway authentication — email/password plus social sign-in options.</li>
+  <li>Real-time updates — listings and metadata update instantly for a responsive UX.</li>
+  <li>Document verification (optional) — host/guest verification flow to increase trust.</li>
+  <li>In-app helpers & notifications — contextual tips and push notifications to guide users.</li>
 </ul>
 
-
-Explore feeds — three dedicated RecyclerView feeds: Top Picks, Nearby, and Latest.
-
-Favorites & history — bookmark listings and keep a lightweight activity history for basic personalization.
-
-Secure in-app email relay — messages are routed through the platform so replies show inside the app without exposing raw contact details.
-
-Multiway authentication — email/password plus social sign-in options.
-
-Real-time updates — listings and metadata update instantly for a responsive UX.
-
-Document verification (optional) — host/guest verification flow to increase trust.
-
-In-app helpers & notifications — contextual tips and push notifications to guide users.
 ---
 
 ## Screenshots <a name="screenshots"></a>
-
+<img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/ezgif.com-animated-gif-maker.gif" alt="Logo" width="100%"   height="100%" style="margin-right: 10px;padding-top: 6rem;" />
 ---
 
 ## Installation <a name="installation"></a>
 
 ### Option 1: Clone & Run
 ```bash
+
+## Tech Stack <a name="tech-stack"></a>
