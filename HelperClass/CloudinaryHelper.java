@@ -36,8 +36,8 @@ import java.util.Map;
  */
 
 public class CloudinaryHelper {
-    private static final String CLOUD_NAME = "dzcc39dhh";
-    private static final String UPLOAD_PRESET = "portfolio_web";
+    private static final String CLOUD_NAME = "xxxxxxxx";
+    private static final String UPLOAD_PRESET = "xxxxxxxx";
 
     private static CloudinaryHelper instance;
     private Context context;
