@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/setting_title"
+        android:title=""
+        app:actionLayout="@layout/line_menu_setting"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/finger"
+        android:title=""
+        app:actionLayout="@layout/finger_switch_menu"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/deleteAccount"
+        android:icon="@drawable/user"
+        android:iconTint="@color/black"
+        android:title="@string/deleted_my" />
+
+    <item
+        android:id="@+id/mg_title"
+        android:title=""
+        app:actionLayout="@layout/line_menu_mg"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/logoutAccount"
+        android:icon="@drawable/log_out"
+        android:iconTint="@color/black"
+        android:title="@string/log_out" />
+
+    <item
+        android:id="@+id/shareApp"
+        android:icon="@drawable/share"
+        android:iconTint="@color/black"
+        android:title="@string/share" />
+
+</menu>
