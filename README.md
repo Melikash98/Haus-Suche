@@ -48,7 +48,7 @@ This repository is a practical junior-level project intended for portfolio/demo 
 
 ## Tech Stack <a name="tech-stack"></a>
 <ul>
-  <li>Android (Java/Kotlin) — project UI & app logic.</li>
+  <li>Android (Java) — project UI & app logic.</li>
   <li>Realtime backend: Firebase.</li>
   <li>Source & hosting: GitHub.</li>
   <li>Social auth options: Google and Facebook.</li>
