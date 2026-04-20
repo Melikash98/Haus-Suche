@@ -17,7 +17,6 @@ Haus-Suche
    <a href="#tech-stack">Tech Stack</a><br>
   <a href="#contributing">Contributing</a><br>
    <a href="#license">License</a><br>
-  <a href="#installation">Installation</a><br>
 </p>
 
 
@@ -75,8 +74,3 @@ If you want to contribute, please open an issue describing the change, then send
 </p>
 
 ---
-
-## Installation <a name="installation"></a>
-
-### Option 1: Clone & Run
-```bash---
