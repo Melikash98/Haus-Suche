@@ -38,8 +38,8 @@ public class EmailReplayFetcher {
     private static final String TAG = "EMAIL_REPLAY";
     private static final String IMAP_HOST = "imap.gmail.com";
     private static final int IMAP_PORT = 993;
-    private static final String APP_EMAIL = "Melika.sh.pc@gmail.com";
-    private static final String APP_PASSWORD = "mgxllmodvxgjwtpw";
+    private static final String APP_EMAIL = "AdminEmail@gmail.com";
+    private static final String APP_PASSWORD = "xxxxxxxxxx";
 
     public interface Callback {
         void onSuccess(int repliesProcessed);
