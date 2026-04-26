@@ -1,6 +1,6 @@
 <h1 style="text-align: left; display: flex;">
   <img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/logoApp.png" alt="Logo" width="80px"   height="80px" style="margin-right: 10px;padding-top: 6rem;" />
-Haus-Suche
+Haus Suche
 </h1>
 
 <img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/ezgif.com-animated-gif-maker.gif" alt="Logo" width="100%"   height="100%" style="margin-right: 10px;padding-top: 6rem;" />
@@ -24,8 +24,8 @@ Haus-Suche
 
 ## Overview
 
-**Safe Pulse**
-Haus-Suche is a lightweight Android application focused on property discovery and short-term bookings. The app demonstrates common mobile patterns—structured categories, multi-criteria filters, a three-feed Explore section (Top Picks / Nearby / Latest), and an integrated communication flow for contacting property owners. The implementation prioritizes real-time data sync and privacy-preserving communication while keeping the codebase simple and approachable for learning and iteration.
+**Haus Suche**
+Haus Suche is a lightweight Android application focused on property discovery and short-term bookings. The app demonstrates common mobile patterns—structured categories, multi-criteria filters, a three-feed Explore section (Top Picks / Nearby / Latest), and an integrated communication flow for contacting property owners. The implementation prioritizes real-time data sync and privacy-preserving communication while keeping the codebase simple and approachable for learning and iteration.
 
 This repository is a practical junior-level project intended for portfolio/demo use. Code is organized to show modular UI components, Firebase-backed data flows, and typical Android UI patterns (RecyclerView, Intent-based actions, modular data layer).
 
