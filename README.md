@@ -93,3 +93,18 @@ If you want to contribute, please open an issue describing the change, then send
 </p>
 
 ---
+---
+
+## ⭐ Show Your Support
+
+If you like this project and find it useful for your learning or portfolio:
+
+- Give it a **Star** ⭐ on GitHub  
+- Share it with your friends or on LinkedIn  
+- Open an issue or suggest new features  
+
+**Feedback is always welcome!** Feel free to contact me for any questions or collaboration ideas.
+
+---
+
+Made with ❤️ for the Android community.
