@@ -93,7 +93,6 @@ If you want to contribute, please open an issue describing the change, then send
 </p>
 
 ---
----
 
 ## ⭐ Show Your Support
 
