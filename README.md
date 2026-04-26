@@ -105,5 +105,4 @@ If you like this project and find it useful for your learning or portfolio:
 **Feedback is always welcome!** Feel free to contact me for any questions or collaboration ideas.
 
 ---
-
 Made with ❤️ for the Android community.
