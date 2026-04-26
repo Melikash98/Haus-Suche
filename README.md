@@ -89,7 +89,7 @@ If you want to contribute, please open an issue describing the change, then send
 
 <p align="left" width="100%">
  This project is licensed under the **MIT License** — perfect for portfolio and demo projects.
-  See the [LICENSE](LICENSE) file for full details.
+ See the [LICENSE](https://github.com/Melikash98/Haus-Suche/blob/main/LICENSE) file for full details.
 </p>
 
 ---
