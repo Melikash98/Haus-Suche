@@ -17,6 +17,7 @@ Haus Suche
 [![Firebase Realtime Database](https://img.shields.io/badge/Realtime_Database-22.0.1-FFCA28?style=flat&logo=firebase&logoColor=black)](https://github.com/firebase/firebase-android-sdk)
 [![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-24.0.1-FFCA28?style=flat&logo=firebase&logoColor=black)](https://github.com/firebase/firebase-android-sdk)
 [![SendGrid](https://img.shields.io/badge/SendGrid-4.10.3-00A3E0?style=flat&logo=sendgrid&logoColor=white)](https://github.com/sendgrid/sendgrid-java)
+[![JavaMail](https://img.shields.io/badge/JavaMail-1.6.8-0077B5?style=flat&logo=oracle&logoColor=white)](https://github.com/javamail/javamail)
 
 
 <img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/ezgif.com-animated-gif-maker.gif" alt="Logo" width="100%"   height="100%" style="margin-right: 10px;padding-top: 6rem;" />
