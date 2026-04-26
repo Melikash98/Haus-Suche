@@ -18,6 +18,11 @@ Haus Suche
 [![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-24.0.1-FFCA28?style=flat&logo=firebase&logoColor=black)](https://github.com/firebase/firebase-android-sdk)
 [![SendGrid](https://img.shields.io/badge/SendGrid-4.10.3-00A3E0?style=flat&logo=sendgrid&logoColor=white)](https://github.com/sendgrid/sendgrid-java)
 [![JavaMail](https://img.shields.io/badge/JavaMail-1.6.8-0077B5?style=flat&logo=oracle&logoColor=white)](https://github.com/javamail/javamail)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Java](https://img.shields.io/badge/Java-11+-ED8B00?style=flat&logo=openjdk&logoColor=white)](https://www.java.com)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com)
+[![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)](https://developer.android.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/Melikash98/Haus-Suche)
 
 
 <img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/ezgif.com-animated-gif-maker.gif" alt="Logo" width="100%"   height="100%" style="margin-right: 10px;padding-top: 6rem;" />
