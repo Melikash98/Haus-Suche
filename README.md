@@ -3,6 +3,7 @@
 Haus Suche
 </h1>
 
+[![Build Status](https://github.com/Melikash98/Haus-Suche/actions/workflows/android-build.yml/badge.svg)](https://github.com/Melikash98/Haus-Suche/actions/workflows/android-build.yml)
 [![](https://jitpack.io/v/Foysalofficial/NafisBottomNav.svg)](https://github.com/Foysalofficial/NafisBottomNav)
 [![Cloudinary](https://img.shields.io/badge/Cloudinary-3.1.2-007ACC?style=flat&logo=cloudinary&logoColor=white)](https://github.com/cloudinary/cloudinary_android)
 [![Android PDF Viewer](https://img.shields.io/badge/Android_PDF_Viewer-3.2.0--beta.3-FF6F00?style=flat)](https://github.com/mhiew/AndroidPdfViewer)
