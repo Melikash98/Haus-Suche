@@ -4,7 +4,6 @@ Haus Suche
 </h1>
 
 [![](https://jitpack.io/v/Foysalofficial/NafisBottomNav.svg)](https://jitpack.io/#Foysalofficial/NafisBottomNav)
-[![Maven Central](https://img.shields.io/maven-central/v/androidx.biometric/biometric?label=androidx.biometric%3Abiometric&color=4CAF50)](https://mvnrepository.com/artifact/androidx.biometric/biometric/1.1.0)
 [![](https://jitpack.io/v/mhiew/AndroidPdfViewer.svg)](https://jitpack.io/#mhiew/AndroidPdfViewer)
 [![](https://jitpack.io/v/koral--/android-gif-drawable.svg)](https://jitpack.io/#koral--/android-gif-drawable)
 [![](https://jitpack.io/v/cloudinary/cloudinary_android.svg)](https://jitpack.io/#cloudinary/cloudinary_android)
