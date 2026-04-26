@@ -13,9 +13,6 @@ Haus Suche
 [![Picasso](https://img.shields.io/badge/Picasso-2.71828-E91E63?style=flat&logo=square)](https://github.com/square/picasso)
 [![Shimmer](https://img.shields.io/badge/Shimmer-0.5.0-2196F3?style=flat)](https://github.com/facebook/shimmer-android)
 [![Android GIF Drawable](https://img.shields.io/badge/GIF_Drawable-1.2.31-FF5722?style=flat)](https://github.com/koral--/android-gif-drawable)
-[![Firebase BOM](https://img.shields.io/badge/Firebase_BOM-34.12.0-FFCA28?style=flat&logo=firebase&logoColor=black)](https://github.com/firebase/firebase-android-sdk)
-[![Firebase Realtime Database](https://img.shields.io/badge/Realtime_Database-22.0.1-FFCA28?style=flat&logo=firebase&logoColor=black)](https://github.com/firebase/firebase-android-sdk)
-[![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-24.0.1-FFCA28?style=flat&logo=firebase&logoColor=black)](https://github.com/firebase/firebase-android-sdk)
 [![SendGrid](https://img.shields.io/badge/SendGrid-4.10.3-00A3E0?style=flat&logo=sendgrid&logoColor=white)](https://github.com/sendgrid/sendgrid-java)
 [![JavaMail](https://img.shields.io/badge/JavaMail-1.6.8-0077B5?style=flat&logo=oracle&logoColor=white)](https://github.com/javamail/javamail)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -91,7 +88,8 @@ If you want to contribute, please open an issue describing the change, then send
 ## License <a name="license"></a>
 
 <p align="left" width="100%">
-  This project does not include a license file by default. For portfolio/demo use, consider adding a permissive license such as MIT. If you want, I can add a proper LICENSE file and the short license header to the top of main source files
+ This project is licensed under the **MIT License** — perfect for portfolio and demo projects.
+  See the [LICENSE](LICENSE) file for full details.
 </p>
 
 ---
