@@ -3,8 +3,13 @@
 Haus Suche
 </h1>
 
-[Foysalofficial/NafisBottomNav](https://github.com/Foysalofficial/NafisBottomNav)
-[mhiew/AndroidPdfViewer](https://github.com/mhiew/AndroidPdfViewer)
+[![](https://jitpack.io/v/Foysalofficial/NafisBottomNav.svg)](https://github.com/Foysalofficial/NafisBottomNav)
+[![](https://jitpack.io/v/mhiew/AndroidPdfViewer.svg)](https://github.com/mhiew/AndroidPdfViewer)
+[![](https://jitpack.io/v/smarteist/android-image-slider.svg)](https://github.com/smarteist/android-image-slider)
+[![](https://jitpack.io/v/koral--/android-gif-drawable.svg)](https://github.com/koral--/android-gif-drawable)
+[![](https://jitpack.io/v/cloudinary/cloudinary_android.svg)](https://github.com/cloudinary/cloudinary_android)
+[![](https://jitpack.io/v/sendgrid/sendgrid-java.svg)](https://github.com/sendgrid/sendgrid-java)
+
 
 <img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/ezgif.com-animated-gif-maker.gif" alt="Logo" width="100%"   height="100%" style="margin-right: 10px;padding-top: 6rem;" />
 ##
