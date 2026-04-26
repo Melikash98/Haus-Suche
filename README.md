@@ -3,9 +3,8 @@
 Haus Suche
 </h1>
 
-[![](https://jitpack.io/v/Foysalofficial/NafisBottomNav.svg)](https://jitpack.io/#Foysalofficial/NafisBottomNav)
 [Foysalofficial/NafisBottomNav](https://github.com/Foysalofficial/NafisBottomNav)
-
+[mhiew/AndroidPdfViewer](https://github.com/mhiew/AndroidPdfViewer
 
 <img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/ezgif.com-animated-gif-maker.gif" alt="Logo" width="100%"   height="100%" style="margin-right: 10px;padding-top: 6rem;" />
 ##
