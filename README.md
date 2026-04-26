@@ -4,9 +4,7 @@ Haus Suche
 </h1>
 
 [![](https://jitpack.io/v/Foysalofficial/NafisBottomNav.svg)](https://jitpack.io/#Foysalofficial/NafisBottomNav)
-[![](https://jitpack.io/v/mhiew/AndroidPdfViewer.svg)](https://jitpack.io/#mhiew/AndroidPdfViewer)
-[![](https://jitpack.io/v/koral--/android-gif-drawable.svg)](https://jitpack.io/#koral--/android-gif-drawable)
-[![](https://jitpack.io/v/cloudinary/cloudinary_android.svg)](https://jitpack.io/#cloudinary/cloudinary_android)
+[Foysalofficial/NafisBottomNav](https://github.com/Foysalofficial/NafisBottomNav)
 
 
 <img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/ezgif.com-animated-gif-maker.gif" alt="Logo" width="100%"   height="100%" style="margin-right: 10px;padding-top: 6rem;" />
