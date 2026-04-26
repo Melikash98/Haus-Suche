@@ -2,6 +2,7 @@
   <img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/logoApp.png" alt="Logo" width="80px"   height="80px" style="margin-right: 10px;padding-top: 6rem;" />
 Haus Suche
 </h1>
+[![](https://jitpack.io/v/Foysalofficial/NafisBottomNav.svg)](https://jitpack.io/#Foysalofficial/NafisBottomNav)
 
 <img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/ezgif.com-animated-gif-maker.gif" alt="Logo" width="100%"   height="100%" style="margin-right: 10px;padding-top: 6rem;" />
 ##
