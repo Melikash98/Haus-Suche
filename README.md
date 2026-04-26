@@ -13,6 +13,9 @@ Haus Suche
 [![Picasso](https://img.shields.io/badge/Picasso-2.71828-E91E63?style=flat&logo=square)](https://github.com/square/picasso)
 [![Shimmer](https://img.shields.io/badge/Shimmer-0.5.0-2196F3?style=flat)](https://github.com/facebook/shimmer-android)
 [![Android GIF Drawable](https://img.shields.io/badge/GIF_Drawable-1.2.31-FF5722?style=flat)](https://github.com/koral--/android-gif-drawable)
+[![Firebase BOM](https://img.shields.io/badge/Firebase_BOM-34.12.0-FFCA28?style=flat&logo=firebase&logoColor=black)](https://github.com/firebase/firebase-android-sdk)
+[![Firebase Realtime Database](https://img.shields.io/badge/Realtime_Database-22.0.1-FFCA28?style=flat&logo=firebase&logoColor=black)](https://github.com/firebase/firebase-android-sdk)
+[![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-24.0.1-FFCA28?style=flat&logo=firebase&logoColor=black)](https://github.com/firebase/firebase-android-sdk)
 
 
 <img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/ezgif.com-animated-gif-maker.gif" alt="Logo" width="100%"   height="100%" style="margin-right: 10px;padding-top: 6rem;" />
