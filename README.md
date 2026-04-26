@@ -9,6 +9,7 @@ Haus Suche
 [![](https://jitpack.io/v/koral--/android-gif-drawable.svg)](https://github.com/koral--/android-gif-drawable)
 [![](https://jitpack.io/v/cloudinary/cloudinary_android.svg)](https://github.com/cloudinary/cloudinary_android)
 [![](https://jitpack.io/v/sendgrid/sendgrid-java.svg)](https://github.com/sendgrid/sendgrid-java)
+[<image-card alt="Firebase BoM" src="https://img.shields.io/maven-central/v/com.google.firebase/firebase-bom?label=BoM&color=FFCA28" ></image-card>](https://mvnrepository.com/artifact/com.google.firebase/firebase-bom/34.12.0)
 
 
 <img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/ezgif.com-animated-gif-maker.gif" alt="Logo" width="100%"   height="100%" style="margin-right: 10px;padding-top: 6rem;" />
